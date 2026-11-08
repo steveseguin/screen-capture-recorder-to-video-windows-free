@@ -204,7 +204,7 @@ def start_recording_with_current_settings just_preview = false
    end
 
    if should_save_file?
-	 c += " -f mp4 \"#{@next_filename}\""
+	 c += " \"#{@next_filename}\""
      puts "writing to file: #{@next_filename}"
    end
    
